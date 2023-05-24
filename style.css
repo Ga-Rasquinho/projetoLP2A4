@@ -18,6 +18,19 @@ header {
     align-items: center;
   }
   
+  .imgLogo{
+    width: 50px;
+  }
+  .login{
+    width: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px
+  }
+  .menu{
+    width: 40px;
+    margin-top: 3px;
+  }
+
   .links-container {
     display: flex;
   }
@@ -55,5 +68,16 @@ footer{
 }
 
 .barraImagens{
-    width: 400px;
+    width: 450px;
+    border: 1px solid #000;
+}
+
+.destino{
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial;
+  border-bottom:1px solid #000;
+  font-weight: bold;
+  margin-top: 4px;
+  padding:40px
 }
