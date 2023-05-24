@@ -1,0 +1,59 @@
+body{
+    gap: 20px;
+}
+
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links-container {
+    display: flex;
+  }
+  
+  .links-container a {
+    margin-left: 10px;
+  }
+.formIndex{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.forms{
+    display: grid;
+    grid-column: 2;
+    grid-template-rows: 3;
+    background-color: #F8DA6E;
+    padding: 30px;
+    margin: 100px 100px;
+    border-radius: 20px;
+}
+.linha1{
+    display: flex;
+    grid-column: 1;
+}
+
+
+.imagens-voo{
+    display: flex;
+    grid-column: 2;
+}
+
+footer{
+    display: flex;
+    grid-column: 2;
+}
+
+.barraImagens{
+    width: 400px;
+}
